@@ -2299,7 +2299,7 @@ void tbmenu(int x, int y)
 void menusanpham()
 {
 	int x, y;
-	bangmenu(48,1,67,2,11);	vietchuoi(53,2,"CHUONG TRINH QUAN LY CUA HANG DIEN TU DIEN LANH KHANH TOAN",14);
+	bangmenu(48,1,67,2,11);	vietchuoi(53,2,"CHUONG TRINH QUAN LY MY PHAM CUA NHOM TERMINATORS",14);
 	textcolor(2);	tbmenu(x=36,y=6);	textcolor(3);
 	bangmenu(x+42,y+2,40,2,14);	vietchuoi(x+45,y+3,"1>  Nhap san pham",15);
 	vietchuoi(x+45,y+6,"2>  Quan ly san pham",6);
@@ -2426,7 +2426,7 @@ void menusanpham()
 void menukhachhang()
 {
 	int x, y;
-	bangmenu(48,1,67,2,11);	vietchuoi(53,2,"CHUONG TRINH QUAN LY CUA HANG DIEN TU DIEN LANH KHANH TOAN",14);
+	bangmenu(48,1,67,2,11);	vietchuoi(53,2,"CHUONG TRINH QUAN LY MY PHAM CUA NHOM TERMIMATORS",14);
 	textcolor(2);	tbmenu(x=36,y=6);	textcolor(3);
 	bangmenu(x+42,y+2,40,2,14);	vietchuoi(x+45,y+3,"1>  Nhap khach hang",15);
 	vietchuoi(x+45,y+6,"2>  Quan ly khach hang",6);
@@ -2675,7 +2675,7 @@ int menu()
 			else if(kt==3)
 			{
 				vietchuoi(x+57,y+3,"DU AN 1",12);
-				vietchuoi(x+32,y+5,"Chuong trinh quan ly kho hang nhom Terminators",13);
+				vietchuoi(x+32,y+5,"Chuong trinh quan ly my pham nhom Terminators",13);
 				vietchuoi(x+33,y+9,"Nguoi thuc hien: Thanh vien nhom Terminators",10);
 				vietchuoi(x+33,y+11,"Nguoi huong dan: Co Nguyen Thi Ngoc Ha",10);
 				vietchuoi(x+33,y+13,"Cam on: Co giao trong bo mon da giup do",14);
